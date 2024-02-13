@@ -8,7 +8,7 @@ merged_file = pd.concat([file1, file2], ignore_index=True)
 merged_file.to_excel('merged_file.xlsx', index=False)
 
 
-# 2.Read and Export as a XLfile
+# 2.Read and Export as a XLfiles
 
 df = pd.read_excel('C:\\Users\\ashwin-ts69\\Desktop\\PyExcelAuto\\merged_file.xlsx', sheet_name='Sheet1')
 df.to_excel('new_filename.xlsx', index=False)
